@@ -1,6 +1,6 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 10 auto;
   padding: 2rem;
   text-align: center;
 }
@@ -34,13 +34,67 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 6em;
 }
 
 .read-the-docs {
-  color: #888;
+  color: black;
+}
+/* posição*/
+.pokemon-card { 
+  
+  width: 200px;
+  display: inline-table;
 }
 
-.pokemon-card {
-  width: 200px;
+
+.pokemon-list {
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
+
+.pokemon-list{
+ 
+}
+.pokemon-card{
+  background-position-x: left;
+  background-color: pink;
+}
+body {
+  background-image: url('https://img2.douhuiai.com/dhimg/20240221/65d559f7e9dae.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+  background-size: cover; /* Faz a imagem cobrir todo o fundo */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  background-position: center; /* Centraliza a imagem no fundo */
+}
+.pokemon-card{
+  border: 2px solid #000; /* Define a borda */
+  border-radius: 10px; /* Define o raio das bordas */
+  background-image: url('https://i.pinimg.com/236x/d7/f2/15/d7f215d8f55268f91845f81cb9ec22f8.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+  background-size: cover; /* Faz a imagem cobrir todo o fundo */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  background-position: center; /* Centraliza a imagem no fundo */
+}
+
+
+.Pokédex {
+  color: navajowhite;
+}
+.Pokédex {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+  font-size: 1em; color: #fffdd9;
+  }
+  .name{
+
+   -webkit-text-stroke-width: 1.2px;
+   -webkit-text-stroke-color: navy;
+   font-size: 1.5em; color: palevioletred;
+
+  }
+
+  .tipo{
+   
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:purple;
+    font-size: 1.3em; color:pink;
+   
+  }
